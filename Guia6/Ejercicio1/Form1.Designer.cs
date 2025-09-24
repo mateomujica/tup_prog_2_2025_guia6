@@ -42,7 +42,7 @@
             groupBox1.Controls.Add(btnAgregar);
             groupBox1.Location = new Point(0, 0);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(329, 267);
+            groupBox1.Size = new Size(490, 298);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "groupBox1";
@@ -51,24 +51,24 @@
             // 
             listBox1.FormattingEnabled = true;
             listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(12, 61);
+            listBox1.Location = new Point(12, 39);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(198, 154);
+            listBox1.Size = new Size(314, 229);
             listBox1.TabIndex = 2;
             // 
             // button2
             // 
-            button2.Location = new Point(229, 158);
+            button2.Location = new Point(344, 168);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 1;
-            button2.Text = "button2";
+            button2.Text = "Eliminar";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
             // btnAgregar
             // 
-            btnAgregar.Location = new Point(229, 88);
+            btnAgregar.Location = new Point(344, 98);
             btnAgregar.Name = "btnAgregar";
             btnAgregar.Size = new Size(75, 23);
             btnAgregar.TabIndex = 0;

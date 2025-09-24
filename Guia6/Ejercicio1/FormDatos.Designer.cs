@@ -99,18 +99,18 @@
             label1.AutoSize = true;
             label1.Location = new Point(243, 67);
             label1.Name = "label1";
-            label1.Size = new Size(38, 15);
+            label1.Size = new Size(32, 15);
             label1.TabIndex = 6;
-            label1.Text = "label1";
+            label1.Text = "CUIT";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Location = new Point(243, 118);
             label2.Name = "label2";
-            label2.Size = new Size(38, 15);
+            label2.Size = new Size(51, 15);
             label2.TabIndex = 7;
-            label2.Text = "label2";
+            label2.Text = "Nombre";
             // 
             // FormDatos
             // 

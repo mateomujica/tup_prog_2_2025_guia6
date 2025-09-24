@@ -19,7 +19,7 @@ namespace Ejercicio1.Models
 
         virtual public string Describir()
         {
-            return nombre;
+            return $"{nombre}";
         }
 
         public int CompareTo(object? obj)

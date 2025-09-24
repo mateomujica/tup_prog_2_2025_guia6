@@ -11,11 +11,12 @@ namespace Ejercicio1
         {
             InitializeComponent();
         }
-        bool cerrar = false;
+        
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             FormDatos formDatos = new FormDatos();
             formDatos.ShowDialog();
+            bool cerrar = false;
             while (formDatos.DialogResult == DialogResult.OK && cerrar == false)
             {
                 string nombre = formDatos.textBox1.Text;
@@ -37,6 +38,7 @@ namespace Ejercicio1
                 {
                     personas.Add(p);
                     Actualizar();
+                    cerrar = true;
                    
                 }
                 else
@@ -63,7 +65,7 @@ namespace Ejercicio1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Actualizar();
+            
         }
     }
 

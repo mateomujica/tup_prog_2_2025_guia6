@@ -17,7 +17,7 @@ namespace Ejercicio1.Models
 
         public override string Describir()
         {
-            return $"{cuit} / {nombre}";
+            return $"{nombre} / [{cuit}]";
         }
      }
 }
